@@ -1,0 +1,44 @@
+/* Prevent Mobile Scroll to refresh */
+body {
+  overscroll-behavior-y: none;
+}
+
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+input[name='image'] {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.table-row-hover:hover {
+  cursor: pointer;
+}
+
+.hover-cursor:hover {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  height: 7px;
+  width: 7px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: initial;
+  border-radius: 4px;
+}
+
